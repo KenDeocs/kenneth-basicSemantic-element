@@ -5,15 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Git Semantic Elementss</title>
+    <style>
+        .nav_link{
+            float: left;
+            padding: 5px;
+        }
+        .clear{
+            clear:both;
+        }
+    </style>
   </head>
-  <body>
+  <body style="padding: 0; margin: 0; text-align: center">
     <!--***********************Header Section*************************-->
-    <header>
+    <header style="background-color: green; padding: 0; margin: 0">
+      <h1>Header</h1>
+      <!-- #navigation -->
       <nav>
-        <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Contact</li>
+        <ul style="list-style: none; background-color: lightblue;">
+          <li class="nav_link"><a href="">Home</a></li>
+          <li class="nav_link"><a href="">About</a></li>
+          <li class="nav_link"><a href="">Contact</a></li>
+          <div class="clear"></div>
         </ul>
       </nav>
     </header>
